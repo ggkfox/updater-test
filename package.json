@@ -1,0 +1,34 @@
+{
+  "name": "updater",
+  "version": "1.0.0",
+  "description": "test app to update stuff",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "unbuild": "rm -rf build",
+    "clean": "rm -rf node_modules && unbuild"
+  },
+  "build": {
+    "appId": "updater",
+    "mac": {
+      "category": ""
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggkfox/updater-test.git"
+  },
+  "author": "joshua holland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggkfox/updater-test/issues"
+  },
+  "homepage": "https://github.com/ggkfox/updater-test#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "electron": "^5.0.6",
+    "electron-builder": "^20.44.4"
+  }
+}
