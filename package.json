@@ -23,6 +23,10 @@
   },
   "homepage": "https://github.com/ggkfox/updater-test#readme",
   "dependencies": {
+    "electron-log": "^3.0.6",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-updater": "^4.0.14",
+    "save": "^2.4.0",
     "squirrel": "^1.0.0"
   },
   "devDependencies": {
