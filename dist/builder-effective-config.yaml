@@ -1,5 +1,0 @@
-directories:
-  output: dist
-  buildResources: build
-appId: updater
-electronVersion: 5.0.6

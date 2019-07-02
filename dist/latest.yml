@@ -1,8 +1,0 @@
-version: 1.0.0
-files:
-  - url: updater-setup-1.0.0.exe
-    sha512: YSs8XCQCF9oc5yA0lvEZJJTML/cqyJl+YdhWDEx8cF8HYdck/pBfyXutCeckCHWAcDRn1gvvrqF5i+qegsrAww==
-    size: 43939200
-path: updater-setup-1.0.0.exe
-sha512: YSs8XCQCF9oc5yA0lvEZJJTML/cqyJl+YdhWDEx8cF8HYdck/pBfyXutCeckCHWAcDRn1gvvrqF5i+qegsrAww==
-releaseDate: '2019-07-02T18:05:19.260Z'
