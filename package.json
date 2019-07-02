@@ -5,12 +5,26 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder",
+    "dist": "electron-builder -w",
     "unbuild": "rm -rf dist",
     "clean": "rm -rf node_modules && unbuild"
   },
   "build": {
-    "appId": "updater"
+    "appId": "updater",
+    "directrories": {
+      "buildResources": "."
+    },
+    "mac": {
+      "publish": [
+        "github"
+      ],
+      "category": "public.app-category.productivity"
+    },
+    "win": [
+      "github"
+    ],
+    "verifyUpdateCodeSignature": false,
+    "publisherName": "josh"
   },
   "repository": {
     "type": "git",
