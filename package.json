@@ -44,7 +44,7 @@
     "squirrel": "^1.0.0"
   },
   "devDependencies": {
-    "electron": "^5.0.6",
+    "electron": "^11.5.0",
     "electron-builder": "^20.44.4"
   }
 }
